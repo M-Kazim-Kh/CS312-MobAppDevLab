@@ -160,3 +160,19 @@ pre code{font:inherit;white-space:pre}
   .side,.topbar,.copy,.pager,#scrim{display:none}
   main{margin:0}.view[hidden]{display:block}
 }
+
+/* Author */
+.side-foot{
+  display:flex;align-items:center;gap:.7rem;
+  padding:.8rem 1.1rem;
+  border-top:1px solid var(--ink-3);
+  background:var(--ink);
+}
+.side-foot img{
+  width:50px;height:50px;flex:none;
+  border-radius:50%;object-fit:cover;
+  border:2px solid #1f9d63;
+}
+.sf-name{margin:0;font-size:.85rem;font-weight:600;line-height:1.35}
+.side-foot a{font-size:.8rem;color:var(--on-ink-muted);text-decoration:none}
+.side-foot a:hover{color:#3ddc84;text-decoration:underline}
